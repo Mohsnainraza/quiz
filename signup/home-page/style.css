@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: 80vh;
+    background-color: #222f4d;
+    gap: 10px;
+
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #222f3d; 
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+    
+nav h1 {
+    display: inline-block;
+    margin-left: 20px;
+    color: #dfdede;
+    font-size: 35px;
+}
+
+nav a{
+    padding-top: 5px;
+    float: right;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+
+nav button{
+    background-color:#234237 ;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 7px;
+    margin-right:65px;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav button:hover{
+    background-color: #17513c;
+}
+
+#container{
+    width: 300px;
+    height: 40vh;
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#container1{
+    width: 300px;
+    height: 40vh;
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.cards > img{
+    width: 250px;
+    height: 300px;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+#container2{
+    width: 300px;
+    height: 40vh;
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.cards{ 
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2e2e42;
+
+}
+
+.foot-page{
+    height: 100px;
+    background-color: #222f3d;
+    color: #dddddd;
+    text-align: center;
+   
+}
+
+.copy a:hover{
+    padding-top: 25px;
+    color: #dddddd;
+    text-decoration: underline;
+}
+
+.copy{
+    padding-top: 25px;
+}
+
+.right{
+    padding-top: 10px;
+} 
+
+.copy a{
+    padding-left: 10px;
+    font-size: 1.0em;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+    .copy a{
+        font-size: 0.95em;
+    }
+
+    nav h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        font-size: 30px;
+    }
+
+    nav button{
+        margin-top: 5px;
+        margin-right:35px;
+        font-size: 18px;
+    }
+
+    #container{
+        width: 300px;
+        height: 30vh;
+        padding: 20px;
+    }
+
+    #container1{
+        width: 300px;
+        height: 30vh;
+        padding: 20px;
+    }
+
+    #container2{
+        width: 300px;
+        height: 30vh;
+        padding: 20px;
+    }
+
+    .cards > img{
+        width: 230px;
+        height: 20px;
+        padding-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    section{
+    height: 100vh;
+
+   }
+
+   .cards > img{
+    width: 250px;
+    height: 300px;
+    padding-top: 40px;
+}
+
+}
+
+@media screen and (max-width: 747px) {
+    section{
+    height: 140vh;
+
+   }
+
+   nav button{
+    margin-top: 5px;
+    margin-right:35px;
+    font-size: 18px;
+}
+
+   #container{
+    width: 300px;
+    height: 30vh;
+    padding: 20px;
+}
+
+#container1{
+    width: 300px;
+    height: 30vh;
+    padding: 20px;
+}
+
+#container2{
+    width: 300px;
+    height: 30vh;
+    padding: 20px;
+}
+   .cards > img{
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+}
+
+
+}
+
+@media screen and (max-width: 560px) {
+
+    nav h1 {
+        font-size: 25px;
+        margin-left: 7px;
+    }
+
+    nav button{
+        margin-top: 2px;
+        margin-right:35px;
+        font-size: 16px;
+    }
+
+    nav a {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .copy a{
+        font-size: 0.75em;
+    }
+
+    nav h1 {
+        font-size: 23px;
+        margin-left: 0px;
+    }
+
+    nav a {
+        font-size: 23px;
+    }
+
+    nav button{
+        margin-top: 2px;
+        margin-right:15px;
+        font-size: 16px;
+    }
+
+    #container{
+        width: 300px;
+        height: 30vh;
+        padding: 20px;
+    }
+    
+    #container1{
+        width: 300px;
+        height: 30vh;
+        padding: 20px;
+    }
+    
+    #container2{
+        width: 300px;
+        height: 30vh;
+        padding: 20px;
+    }
+       .cards > img{
+        width: 200px;
+        height: 200px;
+        padding-top: 25px;
+    }
+
+
+}
+
+@media screen and (max-width: 430px) {
+    .copy a{
+        font-size: 0.75em;
+    }
+
+    nav h1 {
+        font-size: 19px;
+        margin-left: 0px;
+    }
+
+    nav a {
+        font-size: 23px;
+    }
+
+    nav button{
+        margin-top: 2px;
+        margin-right:8px;
+        font-size: 16px;
+    }
+
+    #container{
+        width: 300px;
+        height: 30vh;
+        padding: 20px;
+    }
+    
+    #container1{
+        width: 300px;
+        height: 30vh;
+        padding: 20px;
+    }
+    
+    #container2{
+        width: 300px;
+        height: 30vh;
+        padding: 20px;
+    }
+       .cards > img{
+        width: 200px;
+        height: 200px;
+        padding-top: 20px;
+    }
+
+
+}

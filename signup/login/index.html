@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav>
+        <div class="main">
+            <h1>Quiz app</h1>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </nav>
+ <section>
+    <div class="form-container">
+        <h2>Login</h2>
+
+        <form>
+            <input type="text" id="username" name="username"  placeholder="Username"/>
+
+            <input type="password" id="password" name="password" placeholder="password"/>
+
+        </form>
+        <button type="button" onclick="login()">Login</button>
+
+        <p id="error-message"></p>
+
+        <p>Don't have an account? <a href="../index.html">Sign Up</a></p>
+    </div>
+</section>
+
+<footer>
+
+    <div class="foot-page">
+        <div class="copy">
+        <a href="#">Conditions of Use</a>
+        <a href="#">Privacy Notice</a>
+        <a href="#">Consumer Health Data Privacy Disclosure</a>
+        <a href="#">Your Ads Privacy Choices</a>
+        </div>
+        <div class="right">
+        © 2024, Mohsnain Raza
+        </div>
+    </div>
+
+ </footer>
+
+    <script src="login.js"></script>
+</body>
+</html>
